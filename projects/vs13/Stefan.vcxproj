@@ -87,19 +87,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Source\progonka.cpp" />
-    <ClCompile Include="Source\Stefan2.cpp" />
-    <ClCompile Include="Stefan1.cpp" />
+    <ClCompile Include="..\..\Source\Main.cpp" />
+    <ClCompile Include="..\..\Source\progonka.cpp" />
+    <ClCompile Include="..\..\Source\Stefan2.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\progonka.h" />
-    <ClInclude Include="Source\stefanparams.h" />
+    <Text Include="..\..\Output\1Temp.txt" />
+    <Text Include="..\..\Output\inerations.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="1Temp.txt" />
-    <Text Include="inerations.txt" />
-    <Text Include="Temp.txt" />
+    <ClInclude Include="..\..\Source\progonka.h" />
+    <ClInclude Include="..\..\Source\stefanparams.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -14,36 +14,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\progonka.cpp">
+    <ClCompile Include="..\..\Source\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Stefan2.cpp">
+    <ClCompile Include="..\..\Source\progonka.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Stefan1.cpp">
+    <ClCompile Include="..\..\Source\Stefan2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Source\progonka.h">
+    <Text Include="..\..\Output\1Temp.txt">
+      <Filter>Output</Filter>
+    </Text>
+    <Text Include="..\..\Output\inerations.txt">
+      <Filter>Output</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\progonka.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Source\stefanparams.h">
+    <ClInclude Include="..\..\Source\stefanparams.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="1Temp.txt">
-      <Filter>Output</Filter>
-    </Text>
-    <Text Include="inerations.txt">
-      <Filter>Output</Filter>
-    </Text>
-    <Text Include="Temp.txt">
-      <Filter>Output</Filter>
-    </Text>
   </ItemGroup>
 </Project>
