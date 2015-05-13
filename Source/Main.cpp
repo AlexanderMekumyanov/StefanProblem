@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <conio.h>
-void main()
+int main()
 {
 	printf("It's Working! Working!!!");
-	getch();
+	//getch();
+	return 0;
 }
